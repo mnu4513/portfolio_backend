@@ -15,4 +15,8 @@ const { createQuery, getAllQueries } = require('../controllers/queryController')
 router.post('/query', createQuery);
 router.get('/query', getAllQueries);
 
+router.all('/*', function (req, res) {
+    res.status(404).send({status: false, message: "Page not found"});
+});
+
 module.exports = router;
