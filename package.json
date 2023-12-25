@@ -5,7 +5,7 @@
     "email": "jaybhagwan1@gmail.com"
   },
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
