@@ -5,10 +5,7 @@
     "email": "jaybhagwan1@gmail.com"
   },
   "scripts": {
-    "start": "node src/index.js"
-  },
-  "engines": {
-    "node": "20.x"
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
