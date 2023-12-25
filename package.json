@@ -2,7 +2,11 @@
   "name": "portfolio",
   "author": {
     "name": "Jay_Bhagwan",
-    "email": "jaybhagwan1@gmail.com"
+    "email": "jaybhagwan1@proton.me"
+  },
+  "engines": {
+    "npm": ">=8.0.0 <9.6.3",
+    "node": ">=16.0.0 <17.0.0"
   },
   "scripts": {
     "start": "node src/index.js"
